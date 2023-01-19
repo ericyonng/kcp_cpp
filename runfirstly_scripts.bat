@@ -5,7 +5,7 @@ SET CUR_PATH="%~dp0"
 SET VER="%1"
 
 :: 获取管理员权限
-:: if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
+::if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
 
 :: -------------------------------------- 链接配置 -------------------------------------------
 if not exist %CUR_PATH%output\%VER%\Cfgs (
